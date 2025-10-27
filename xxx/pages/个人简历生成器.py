@@ -1,8 +1,8 @@
 import streamlit as st
+st.set_page_config(layout='wide', page_title='个人简历', page_icon='📋')
+
 from datetime import datetime, timedelta
 from datetime import datetime, time
-st.set_page_config(page_title='个人简历', page_icon='📋')
-st.set_page_config(layout='wide')
 st.header('🎉个人简历生成器')
 st.text('使用Streamlit创建您的个人简历')
 c1, c2 = st.columns([1,2])
